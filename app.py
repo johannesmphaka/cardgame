@@ -31,10 +31,10 @@ dealer_images = st.empty()
 result = st.empty()
 
 
-if 'Get other card' in player.possible_actions:
-    if player_hit_option.button('Get other card'):
+if 'Hit' in player.possible_actions:
+    if player_hit_option.button('Hit'):
         player.player_hit(game_deck, game_play)
-        if 'Get other card' not in player.possible_actions:
+        if 'Hit' not in player.possible_actions:
             player_hit_option.empty()
 if 'Double Down' in player.possible_actions:
     if player_double_down_option.button('Double Down'):
