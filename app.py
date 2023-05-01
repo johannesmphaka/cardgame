@@ -9,6 +9,7 @@ import requests
 
 # @st.experimental_memo(suppress_st_warning=True)
 st.subheader('Card game')
+st.write('please click restart button and refresh the link when starting new game')
 
 
 @st.cache_resource  # @st.singleton
