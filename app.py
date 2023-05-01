@@ -196,7 +196,7 @@ if len(name_of_players) > 0:
         df['score'] = [calculate_hand_value(st.session_state[name])]
         df.to_csv(f'df_{name}.csv', index=False)
 
-    if st.button('confirm'):
+    if st.button('see the winner'):
 
         import glob
 
