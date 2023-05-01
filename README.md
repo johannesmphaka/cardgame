@@ -6,4 +6,4 @@ To run locally =>
 - streamlit run app.py
 - navigate to http://localhost:8501
 
-Hosted by Streamlit at https://share.streamlit.io/mikeycam/blackjack_simulator/app.py
+Hosted by Streamlit at https://johannesmphaka-cardgame-app-r9w6ha.streamlit.app
